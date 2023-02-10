@@ -1,3 +1,10 @@
+tcpdump (4.99.1-3ubuntu0.1) jammy; urgency=medium
+
+  * debian/usr.sbin.tcpdump: allow tcpdump printing to stdout/stderr when
+    running from a container (LP: #1667016)
+
+ -- Georgia Garcia <georgia.garcia@canonical.com>  Fri, 10 Feb 2023 15:14:22 -0300
+
 tcpdump (4.99.1-3build2) jammy; urgency=high
 
   * No change rebuild for ppc64el baseline bump.
