@@ -1,3 +1,11 @@
+tcpdump (4.99.1-3ubuntu0.2) jammy; urgency=medium
+
+  * debian/usr.bin.tcpdump: allow read/write to .pcapng files along with
+    a permission to the .pcap, .pcapng, .cap files followed by a numeric
+    suffix required by the -W parameter (LP: #2052493)
+
+ -- Georgia Garcia <georgia.garcia@canonical.com>  Thu, 08 Feb 2024 10:21:43 -0300
+
 tcpdump (4.99.1-3ubuntu0.1) jammy; urgency=medium
 
   * debian/usr.sbin.tcpdump: allow tcpdump printing to stdout/stderr when
